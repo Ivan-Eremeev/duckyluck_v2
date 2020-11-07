@@ -1,0 +1,64 @@
+.steps {
+  display: flex;
+  color: #fff;
+  padding-right: 35px;
+  &_item {
+    display: flex;
+    align-items: center;
+    width: 33.3%;
+    padding: 10px 10px 10px 46px;
+    position: relative;
+    line-height: 1;
+    &--1 {
+      background-color: #febb01;
+      z-index: 3;
+      border-radius: 60px 0 0 60px;
+    }
+    &--2 {
+      background-color: #ff7b17;
+      z-index: 2;
+    }
+    &--3 {
+      background-color: #0191b6;
+      z-index: 1; 
+    }
+  }
+  &_triangle {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    img {
+      height: 100%;
+    }
+  }
+  &_num {
+    font-family: "Grobold";
+    font-size: 69px;
+    margin-right: 15px;
+  }
+  &_content {
+    font-size: 19px;
+    font-weight: 700;
+  }
+  &_title {
+    text-transform: uppercase;
+  }
+  &_text {
+    font-style: italic;
+  }
+  @media (max-width: $break_sm) {
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 35px;
+    &_item {
+      width: 100%;
+      border-radius: 60px 0 0 60px;
+      padding: 10px 10px 10px 24px;
+    }
+    &_num {
+      margin-right: 10px;
+    }
+  }
+}

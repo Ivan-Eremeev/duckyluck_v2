@@ -1,0 +1,109 @@
+extends blocks/base.jade
+
+block title 
+	title Главная
+
+block style-libs
+	//- link(rel="stylesheet", href="css/libs/animate.min.css")
+	//- link(rel="stylesheet", href="css/libs/bootstrap-grid.min.css")
+	//- link(rel="stylesheet", href="css/libs/fullpage.css")
+	//- link(rel="stylesheet", href="css/libs/hamburgers.min.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.fancybox.min.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.mmenu.all.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.scrollbar.css")
+	//- link(rel="stylesheet", href="css/libs/slick.css")
+	//- link(rel="stylesheet", href="css/libs/tooltipster.bundle.min.css")
+
+block content
+
+	.page
+		include blocks/header.jade
+
+		.welcome
+			.wrapper
+				.welcome_row
+					.welcome_content
+						h1.welcome_title
+							span.welcome_title-big 500
+							span.welcome_title-top %
+							span.welcome_title-text-a match deposit
+							span.welcome_title-text-b bonus
+						p.welcome_text
+							span +150 free spins
+						a(href="#").welcome_btn
+							span PLAY NOW
+					//- .welcome_hero
+					//- 	.welcome_img
+					//- 		img(src="img/hero.png", alt="hero").mobile-hide
+					//- 		img(src="img/hero-mob.png", alt="hero").mobile-visible
+				
+				// steps
+				.steps
+					.steps_item.steps_item--1
+						.steps_num 1
+						.steps_content
+							.steps_title Register
+							.steps_text Quick and easy signup
+							.steps_triangle
+								img(src="img/triangle1.svg", alt="")
+					.steps_item.steps_item--2
+						.steps_num 2
+						.steps_content
+							.steps_title Get your bonus 
+							.steps_text Make your 1st deposit and claim
+							.steps_triangle
+								img(src="img/triangle2.svg", alt="")
+					.steps_item.steps_item--3
+						.steps_num 3
+						.steps_content
+							.steps_title Have fun
+							.steps_text Let the rewards start rolling in!
+							.steps_triangle
+								img(src="img/triangle3.svg", alt="")
+				//	/steps
+
+		// icons
+		.icons
+			.wrapper
+				.icons_row
+					.icons_img
+						img(src="img/icon_1.svg", alt="")
+					.icons_img
+						img(src="img/icon_2.svg", alt="")
+					.icons_img
+						img(src="img/icon_3.svg", alt="")
+					.icons_img
+						img(src="img/icon_4.svg", alt="")
+					.icons_img
+						img(src="img/icon_5.svg", alt="")
+					.icons_img
+						img(src="img/icon_6.svg", alt="")
+					.icons_img
+						img(src="img/icon_7.svg", alt="")
+					.icons_img
+						img(src="img/icon_8.svg", alt="")
+					.icons_img
+						img(src="img/icon_9.svg", alt="")
+					.icons_img
+						img(src="img/icon_10.svg", alt="")
+					.icons_img
+						img(src="img/icon_11.svg", alt="")
+		//	/icons
+
+		include blocks/footer.jade
+
+block js-libs
+	//- script(src="js/libs/jquery.min.js")
+	//- script(src="js/libs/jquery.fancybox.min.js")
+	//- script(src="js/libs/slick.min.js")
+	//- script(src="js/libs/jquery.matchHeight-min.js")
+	//- script(src="js/libs/jquery.inputmask.min.js")
+	//- script(src="js/libs/autosize.min.js")
+	//- script(src="js/libs/tooltipster.bundle.min.js")
+	//- script(src="js/libs/jquery.mmenu.min.all.js")
+	//- script(src="js/libs/wow.min.js")
+	//- script(src="js/libs/fullpage.min.js")
+	//- script(src="js/libs/jquery.vide.min.js")
+	//- script(src="js/libs/jquery.scrollbar.min.js")
+	//- script(src="http://api-maps.yandex.ru/2.1/?lang=ru_RU")
+	//- script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArYzQvxn3CL3pB92Iqn9gaDltBFLfF4Y")

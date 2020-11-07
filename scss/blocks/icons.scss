@@ -1,0 +1,18 @@
+.icons {
+  &_row {
+    padding-top: 5px;
+    margin-left: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &_img {
+    max-width: 110px;
+    padding-left: 14px;
+    margin-bottom: 5px;
+    img {
+      display: block;
+    }
+  }
+}
