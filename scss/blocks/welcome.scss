@@ -1,11 +1,16 @@
 .welcome {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
   background-image:
   linear-gradient(to bottom, #4d83f0 0%, #4d83f0 29%, #c7d8fa 100%);
   >.wrapper {
+    height: 100%;
     padding-bottom: 36px;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: top left;
+    background-size: contain;
   }
 	&_row {
 		display: flex;
