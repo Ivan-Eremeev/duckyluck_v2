@@ -1,12 +1,12 @@
 .steps {
   display: flex;
-  color: #fff;
   padding-right: 35px;
   &_item {
     display: flex;
     align-items: center;
     width: 33.3%;
     padding: 10px 10px 10px 46px;
+    color: #fff;
     position: relative;
     line-height: 1;
     &--1 {

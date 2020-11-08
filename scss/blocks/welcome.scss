@@ -26,6 +26,7 @@
     letter-spacing: 3.24px;
 	}
 	&_title {
+    display: inline-block;
 		font-family: "Grobold";
 		color: #febb01;
 		text-shadow: -7px 7px 0 #4a1452;
@@ -53,6 +54,7 @@
     font-size: 65px;
   }
 	&_text {
+    display: inline-block;
 		font-size: 35px;
 		color: #fff;
     font-weight: bold;

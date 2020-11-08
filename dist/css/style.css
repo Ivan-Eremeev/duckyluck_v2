@@ -317,6 +317,7 @@ body {
 	letter-spacing: 3.24px;
 }
 .welcome_title {
+	display: inline-block;
 	font-family: "Grobold";
 	color: #febb01;
 	text-shadow: -7px 7px 0 #4a1452;
@@ -344,6 +345,7 @@ body {
 	font-size: 65px;
 }
 .welcome_text {
+	display: inline-block;
 	font-size: 35px;
 	color: #fff;
 	font-weight: bold;
@@ -461,7 +463,6 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	color: #fff;
 	padding-right: 35px;
 }
 .steps_item {
@@ -473,6 +474,7 @@ body {
 	        align-items: center;
 	width: 33.3%;
 	padding: 10px 10px 10px 46px;
+	color: #fff;
 	position: relative;
 	line-height: 1;
 }
