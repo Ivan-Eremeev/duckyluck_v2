@@ -278,6 +278,10 @@ body {
 	}
 }
 
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .welcome {
 	display: -webkit-box;
 	display: -ms-flexbox;
