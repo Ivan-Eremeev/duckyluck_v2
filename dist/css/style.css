@@ -301,7 +301,7 @@ a {
 	padding-bottom: 36px;
 	background-image: url(../img/bg-new.png);
 	background-repeat: no-repeat;
-	background-position: top left 100px;
+	background-position: top left;
 	background-size: contain;
 }
 .welcome_row {
@@ -313,49 +313,46 @@ a {
 	        justify-content: flex-end;
 }
 .welcome_content {
-	width: 100%;
 	padding-top: 20px;
-	margin-right: 100px;
-	max-width: 340px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 37px;
+	margin-bottom: 70px;
 	letter-spacing: 3.24px;
 }
 .welcome_title {
-	display: inline-block;
+	display: block;
 	font-family: "Grobold";
 	color: #febb01;
-	text-shadow: -7px 7px 0 #4a1452;
+	text-shadow: -13px 13px 0 #4a1452;
 	line-height: 1;
-	margin-bottom: 13px;
+	margin-bottom: 25px;
 	position: relative;
 }
 .welcome_title-big {
 	display: inline-block;
-	font-size: 120px;
+	font-size: 226px;
 	margin-bottom: 10px;
 }
 .welcome_title-top {
 	display: inline-block;
-	font-size: 90px;
+	font-size: 170px;
 	margin-bottom: 10px;
 }
 .welcome_title-text-a {
 	display: block;
-	font-size: 34px;
+	font-size: 64px;
 	margin-bottom: 5px;
 }
 .welcome_title-text-b {
 	display: block;
-	font-size: 65px;
+	font-size: 122px;
 }
 .welcome_text {
-	display: inline-block;
-	font-size: 35px;
+	display: block;
+	font-size: 66px;
 	color: #fff;
 	font-weight: bold;
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 	letter-spacing: -1.18px;
 	line-height: 1;
 }
@@ -365,21 +362,22 @@ a {
 .welcome_text span:after {
 	content: "";
 	display: block;
-	width: 62px;
-	height: 22px;
+	width: 118px;
+	height: 42px;
 	position: absolute;
 	top: 90%;
 	left: 14px;
+	background-repeat: no-repeat;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 62 22'%3E%3Cimage width='62' height='22' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAWCAYAAACYPi8fAAAEOklEQVRYR8WXO6hdRRSGvxU1vuP7bVDxHQgWFjZqI6QREURDsDOIloKNnSCKYpHmiiBoJwQk3MLUUTtREcUHKOIbo9FoYtSYGzUZ+Q5rwXA83pwHJ2dgmNkze8/Mv/61/jU7OE6ltXYScDJwaldPyTHn1gK21hOAyL6tdQ3Q8ri2jlmqfzT7tlWds/838AvwFfBrRBytj6eG31pzDQGdBpwOnJHVZ4GdmeMXABcCFwPnAWd1c35vPTFBC1ygBbjO53OBd8xngfX9mi9DlHH2AjuAbRGxdwC8teZGWtqP/snWMVmoQxUQGSuQtmcnmPXAZQnunATlfLEokDrgzAafkqnfgHuBXZEueB1wC3AusAIcSZYEIDtW5wQpg7KqAWRUA8lUz8qk5yp37dkcXmN4rkJAZssTauz/9pfULRGxLPBLgaeBzclw/9EwM/U8HF/1zSgAfVy6sUb9Kw2skQ9l/ROw/pHzvlOgNK6lvEdPkgCJkBxDzDEJ6I3QY3GtD4D7I+JTgd8IbAdu6gRjlLX7BXsw1VdACsgBRQQwrr4Hvsu+riZQ3/MgdVDDybDSg9YB6oGEXJLeJkCBWX23F8BiuRe8imvHDgM/AK8BLwLvRcQRgZ8PPAo8kO5couJHslO1QP0OCOBnYHeCcmHHZEvWDmaVNdkqNReUYWLYXA5cA1wBXJTMCUwDeIY6R+91o9j0nD0RAt2XCv6+QIGPgS9T0QfvCtwNBC/zWtjYlY1Rbil4a++W9t3MdQQliCsBxe5aQP0ocM7LagErcMfShB5YsVkho7F/BL5IV/4sCdkD/CQZMjy8wX/U1fQUEauJzGCN1prMaChZuzoBXg9YTVmyNwxs2B2PBdh5SdCw5uHPgW+Br9N9Bbw/GdYD7a+Mc/6p0kprzZi7G3gI2JBM98o+DqBJ31EbXgWeSuCHvIhMusjUqSeZvgt4IUNkkr17TyoNMaQUxgJR6VGPKjWvPRTKeyLi7Uk2HfXuxIy31ozTR4AnRhys4s+2YlANUBB1Q13Tw3+TfceNeUPDENmYeuCtrnSg1vSsxvF9EaFozVSmAS4TdwBLwFW5u4wJzNhTXKwCNO5Ma6p8r/i6rcBuBR7MVoE1TQ1Et7uDl2e4ll62FBHuNVOZGHgKm8ovOzdnqjKtmS5Ma6aSw6sJTF6RbwOeB25IIxSQSk+mQgVNlt8F3gDejAjXn7lMBXzWXfPu8AywtQNtjOsJhsE7wFvAJ+k5XoRGpqVpz7Io4KbAl4Db061l93XgFeDDTFkHIsIQmktZFHAvNM8BdybjAnwZeDwiDJu5l0UB93LzMPBk/mAY1+rDY8ByROjycy0LAZ4CafraBmzKnxXd/dlUbUVtrmWRwE1dpjNZNjsoYHrAzogw/c21LAx4su7lxZ8Yf2bM9x+Z+2e5io5rrYUCT/BeZGR/8Ec4zg/GuOBWe+9feVBZJBAdOcEAAAAASUVORK5CYII='/%3E%3C/svg%3E");
 }
 .welcome_btn {
 	display: block;
 	width: 100%;
-	padding: 12px;
+	padding: 25px;
 	background-image: -webkit-gradient(linear, right top, left top, from(#25003a), to(#9700ef));
 	background-image: linear-gradient(to left, #25003a 0%, #9700ef 100%);
-	border-radius: 68px;
-	font-size: 41px;
+	border-radius: 75px;
+	font-size: 77px;
 	letter-spacing: 1px;
 	font-weight: bold;
 	color: #fff;
@@ -425,11 +423,41 @@ a {
 	        transform: translate(0, 0);
 }
 @media (max-width: 1400px) {
-	.welcome > .wrapper {
-		background-position: top left;
-	}
 	.welcome_content {
-		margin-right: 0;
+		margin-bottom: 70px;
+	}
+	.welcome_title {
+		text-shadow: -7px 7px 0 #4a1452;
+		margin-bottom: 13px;
+	}
+	.welcome_title-big {
+		font-size: 120px;
+		margin-bottom: 10px;
+	}
+	.welcome_title-top {
+		font-size: 90px;
+		margin-bottom: 10px;
+	}
+	.welcome_title-text-a {
+		font-size: 34px;
+		margin-bottom: 5px;
+	}
+	.welcome_title-text-b {
+		font-size: 65px;
+	}
+	.welcome_text {
+		font-size: 35px;
+		margin-bottom: 40px;
+	}
+	.welcome_text span:after {
+		width: 62px;
+		height: 22px;
+		top: 90%;
+		left: 14px;
+	}
+	.welcome_btn {
+		font-size: 41px;
+		padding: 12px;
 	}
 }
 @media (max-width: 1050px) {
@@ -495,7 +523,7 @@ a {
 .steps_item--1 {
 	background-color: #febb01;
 	z-index: 3;
-	border-radius: 60px 0 0 60px;
+	border-radius: 80px 0 0 80px;
 }
 .steps_item--2 {
 	background-color: #ff7b17;
@@ -506,7 +534,7 @@ a {
 	z-index: 1;
 }
 .steps_triangle {
-	width: 40px;
+	width: 60px;
 	height: 100%;
 	position: absolute;
 	top: 0;
@@ -517,18 +545,27 @@ a {
 }
 .steps_num {
 	font-family: "Grobold";
-	font-size: 69px;
+	font-size: 130px;
 	margin-right: 15px;
 }
 .steps_content {
-	font-size: 19px;
 	font-weight: 700;
+	font-size: 36px;
 }
 .steps_title {
 	text-transform: uppercase;
 }
 .steps_text {
 	font-style: italic;
+}
+@media (max-width: 1400px) {
+	.steps_num {
+		font-size: 69px;
+		margin-right: 15px;
+	}
+	.steps_content {
+		font-size: 19px;
+	}
 }
 @media (max-width: 769px) {
 	.steps {
@@ -559,7 +596,7 @@ a {
 }
 
 .icons_row {
-	padding-top: 5px;
+	padding-top: 15px;
 	margin-left: -14px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -574,18 +611,25 @@ a {
 	    flex-wrap: wrap;
 }
 .icons_img {
-	max-width: 110px;
 	padding-left: 14px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 .icons_img img {
 	display: block;
 }
+@media (max-width: 1400px) {
+	.icons {
+		padding-top: 5px;
+	}
+	.icons_img {
+		margin-bottom: 5px;
+	}
+}
 
 .footer {
-	padding: 10px 0;
+	padding: 22px 0;
 	background-color: #8800d7;
-	font-size: 11px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -618,5 +662,11 @@ a {
 }
 .footer_link {
 	color: #fff;
+}
+@media (max-width: 1400px) {
+	.footer {
+		padding: 10px 0;
+		font-size: 11px;
+	}
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 .footer {
-  padding: 10px 0;
+  padding: 22px 0;
   background-color: #8800d7;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   &_list {
@@ -27,6 +27,8 @@
   &_link {
     color: #fff;
   }
-  @media (max-width: $break_sm) {
+  @media (max-width: $break_xl) {
+    padding: 10px 0;
+    font-size: 11px;
   }
 }

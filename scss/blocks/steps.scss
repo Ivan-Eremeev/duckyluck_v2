@@ -12,7 +12,7 @@
     &--1 {
       background-color: #febb01;
       z-index: 3;
-      border-radius: 60px 0 0 60px;
+      border-radius: 80px 0 0 80px;
     }
     &--2 {
       background-color: #ff7b17;
@@ -24,7 +24,7 @@
     }
   }
   &_triangle {
-    width: 40px;
+    width: 60px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -35,18 +35,27 @@
   }
   &_num {
     font-family: "Grobold";
-    font-size: 69px;
+    font-size: 130px;
     margin-right: 15px;
   }
   &_content {
-    font-size: 19px;
     font-weight: 700;
+    font-size: 36px;
   }
   &_title {
     text-transform: uppercase;
   }
   &_text {
     font-style: italic;
+  }
+  @media (max-width: $break_xl) {
+    &_num {
+      font-size: 69px;
+      margin-right: 15px;
+    }
+    &_content {
+      font-size: 19px;
+    }
   }
   @media (max-width: $break_sm) {
     flex-wrap: wrap;
