@@ -61,4 +61,15 @@
       margin-right: 10px;
     }
   }
+  @media (max-width: $break_xs) {
+    &_num {
+      font-size: 40px;
+    }
+    &_title {
+      font-size: 17px;
+    }
+    &_text {
+      font-size: 12px;
+    }
+  }
 }
