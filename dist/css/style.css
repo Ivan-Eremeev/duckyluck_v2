@@ -313,11 +313,11 @@ a {
 	        justify-content: flex-end;
 }
 .welcome_content {
-	padding-top: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 70px;
 	letter-spacing: 3.24px;
+	margin-top: -100px;
 }
 .welcome_title {
 	display: block;
@@ -330,22 +330,22 @@ a {
 }
 .welcome_title-big {
 	display: inline-block;
-	font-size: 226px;
+	font-size: 200px;
 	margin-bottom: 10px;
 }
 .welcome_title-top {
 	display: inline-block;
-	font-size: 170px;
+	font-size: 130px;
 	margin-bottom: 10px;
 }
 .welcome_title-text-a {
 	display: block;
-	font-size: 64px;
+	font-size: 60px;
 	margin-bottom: 5px;
 }
 .welcome_title-text-b {
 	display: block;
-	font-size: 122px;
+	font-size: 110px;
 }
 .welcome_text {
 	display: block;
@@ -424,6 +424,7 @@ a {
 }
 @media (max-width: 1400px) {
 	.welcome_content {
+		margin-top: 0;
 		margin-bottom: 70px;
 	}
 	.welcome_title {

@@ -18,11 +18,11 @@
 		justify-content: flex-end;
 	}
 	&_content {
-    padding-top: 20px;
 		text-align: center;
     text-transform: uppercase;
     margin-bottom: 70px;
     letter-spacing: 3.24px;
+    margin-top: -100px;
 	}
 	&_title {
     display: block;
@@ -35,22 +35,22 @@
 	}
 	&_title-big {
     display: inline-block;
-    font-size: 226px;
+    font-size: 200px;
     margin-bottom: 10px;
 	}
 	&_title-top {
     display: inline-block;
-    font-size: 170px;
+    font-size: 130px;
     margin-bottom: 10px;
 	}
 	&_title-text-a {
     display: block;
-    font-size: 64px;
+    font-size: 60px;
     margin-bottom: 5px;
   }
   &_title-text-b {
     display: block;
-    font-size: 122px;
+    font-size: 110px;
   }
 	&_text {
     display: block;
@@ -121,6 +121,7 @@
   }
   @media (max-width: $break_xl) {
     &_content {
+      margin-top: 0;
       margin-bottom: 70px;
     }
     &_title {
