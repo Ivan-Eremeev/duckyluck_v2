@@ -302,7 +302,6 @@ a {
 	background-image: url(../img/bg-new.png);
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-size: contain;
 }
 .welcome_row {
 	display: -webkit-box;
@@ -423,6 +422,9 @@ a {
 	        transform: translate(0, 0);
 }
 @media (max-width: 1400px) {
+	.welcome > .wrapper {
+		background-size: 70%;
+	}
 	.welcome_content {
 		margin-top: 0;
 		margin-bottom: 70px;
@@ -464,6 +466,7 @@ a {
 @media (max-width: 1050px) {
 	.welcome > .wrapper {
 		background-position: top left -70px;
+		background-size: contain;
 	}
 }
 @media (max-width: 769px) {
