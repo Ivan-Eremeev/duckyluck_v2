@@ -424,9 +424,12 @@ a {
 @media (max-width: 1400px) {
 	.welcome > .wrapper {
 		background-size: 70%;
+		background-size: contain;
+		background-position: top left 100px;
 	}
 	.welcome_content {
 		margin-top: 0;
+		margin-right: 100px;
 	}
 	.welcome_title {
 		text-shadow: -7px 7px 0 #4a1452;
@@ -466,6 +469,9 @@ a {
 	.welcome > .wrapper {
 		background-position: top left -70px;
 		background-size: contain;
+	}
+	.welcome_content {
+		margin-right: 0;
 	}
 }
 @media (max-width: 769px) {

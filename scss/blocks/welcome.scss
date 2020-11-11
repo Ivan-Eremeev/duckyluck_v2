@@ -122,9 +122,12 @@
   @media (max-width: $break_xl) {
     >.wrapper {
       background-size: 70%;
+      background-size: contain;
+      background-position: top left 100px;
     }
     &_content {
       margin-top: 0;
+      margin-right: 100px;
     }
     &_title {
       text-shadow: -7px 7px 0 #4a1452;
@@ -166,6 +169,9 @@
     >.wrapper {
       background-position: top left -70px;
       background-size: contain;
+    }
+    &_content {
+      margin-right: 0;
     }
   }
   @media (max-width: $break_sm) {
